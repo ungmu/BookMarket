@@ -7,7 +7,7 @@ public class Wlcome {
 //System.out.println("Welcom to Book Market");
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("당신의 이름을 입력하세요 !!! :");
+		System.out.println("당신의 이름을 입력하세요 :");
 		String userName = input.next();
 		
 		System.out.println("연락처를 입력하세요 :");
