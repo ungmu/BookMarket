@@ -86,7 +86,6 @@ public class Wlcome {
 			   quit =true;
 			   break;
 			   
-			   
 		
 			   
 		   }
@@ -154,5 +153,5 @@ public class Wlcome {
 	   book[2][6] = "코스모스";
 	}
 }
-//ww
+
 
