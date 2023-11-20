@@ -6,7 +6,7 @@ public class Wlcome {
 		for (int i=0; i<NUM_BOOK; i++) {
 		  for (int j=0; j< NUM_ITEM; j++)
 			  System.out.print(book[i][j] + "|");
-		  System.out.println("");
+		  System.out.println()
 		}
 	}
 	static final int NUM_BOOK = 3;

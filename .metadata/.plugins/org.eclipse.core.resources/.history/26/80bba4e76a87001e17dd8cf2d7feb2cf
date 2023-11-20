@@ -1,23 +1,10 @@
 import java.util.Scanner;
 public class Wlcome {
-	public static void menuCartAddItem(String[][] book) {
-		
-		BookList(book);
-		for (int i=0; i<NUM_BOOK; i++) {
-		  for (int j=0; j< NUM_ITEM; j++)
-			  System.out.print(book[i][j] + "|");
-		  System.out.println("");
-		}
-	}
-	static final int NUM_BOOK = 3;
-	static final int NUM_ITEM = 7;
-	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //System.out.println("Welcome to Shoping Mall");
 //System.out.println("Welcom to Book Market");
-		String[][] mBook = new String[NUM_BOOK][NUM_ITEM];
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("당신의 이름을 입력하세요 :");
@@ -126,32 +113,6 @@ public class Wlcome {
   public static void menuExit() {
 	 System.out.println("8. 종료");
   }
-   public static void BookList(String[][] book) {
-	   
-	   book[0][0] = "ISBM1234";
-	   book[0][1] = "쉽게 배우는 JSP 췝 르호그래밍";
-	   book[0][2] = "27,000";
-	   book[0][3] = "송미영";
-	   book[0][4] = "단계별로 쇼핑몰을 구현하며 배우는 JSP 웹 프로그래밍";
-	   book[0][5] = "IT전문서";
-	   book[0][6] = "2018/10/08";
-	  
-	   book[1][0] = "ISBM1235";
-	   book[1][1] = "안도로이는 프로그래밍";
-	   book[1][2] = "33,000";
-	   book[1][3] = "우재남";
-	   book[1][4] = "실습 단꼐별 명쾌한 멘토링";
-	   book[1][5] = "IT전문서";
-	   book[1][6] = "2022/01/22";
-	   
-	   book[2][0] = "ISBM1236";
-	   book[2][1] = "스크래치";
-	   book[2][2] = "22,000";
-	   book[2][3] = "고광일";
-	   book[2][4] = "컴퓨터 사고력을 키우는 블록 코딩";
-	   book[2][5] = "2019/06/10";
-	   book[2][6] = "코스모스";
-	}
 }
-
+//ww
 
